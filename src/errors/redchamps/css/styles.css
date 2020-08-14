@@ -1,0 +1,54 @@
+.error-report {
+    background: #e74c3c;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.error-report .page-main {
+    margin: 10px 172px;
+    max-width: 960px;
+    background: #fff;
+    border-radius: 2px;
+    padding: 66px 115px 59px 115px;
+    position: relative;
+    box-shadow: 0 20px 30px -20px #000;
+}
+.error-report p {
+    margin: 20px 0;
+    font-weight: 600;
+}
+.error-report input {
+    display: block;
+    height: 62px;
+    color: #686868;
+    padding: 0 28px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #c2c2c2;
+    border-radius: 1px;
+    width: 100%;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 1.42857143;
+    background-clip: padding-box;
+    vertical-align: baseline;
+}
+.error-report button {
+    background: #fff;
+    border: 1px solid #1979c3;
+    color: #1979c3;
+    padding: 18px 46px;
+    font-size: 19px;
+}
+.error-report button:hover {
+    color: #FFF;
+    background: #1979c3;
+}

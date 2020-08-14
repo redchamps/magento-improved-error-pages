@@ -1,0 +1,30 @@
+<?php
+if($this->pageTitle == "Error 503: Service Unavailable") {
+    $this->pageTitle = "Under Maintenance";
+}
+$bodyClass = "";
+$code = $this->_response->getHttpResponseCode();
+if($code == 500) {
+    $bodyClass = "error-report";
+} elseif ($code == 503) {
+    $bodyClass = "maintenance";
+}
+?>
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title><?= $this->pageTitle ?></title>
+    <base href="<?= $this->getViewFileUrl() ?>" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="*"/>
+    <link rel="stylesheet" href="../default/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+<body class="<?=$bodyClass?>">
+    <main class="page-main">
+        <?php require_once $contentTemplate; ?>
+    </main>
+</body>
+</html>

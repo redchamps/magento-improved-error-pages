@@ -1,0 +1,20 @@
+{
+    "name": "redchamps/module-improved-error-pages",
+    "description": "This will improve styling of Magento's error pages.",
+    "type": "magento2-component",
+    "license": [
+        "RedChamps EULA"
+    ],
+    "extra": {
+        "map": [
+            [
+                "src/*",
+                ""
+            ],
+            [
+                "src/*",
+                "pub"
+            ]
+        ]
+    }
+}

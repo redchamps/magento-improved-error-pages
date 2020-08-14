@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body {
+    padding-bottom: 50px;
+    background: rgb(99, 85, 188);
+}
+a, h3 {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #db6b86;
+}
+h3 {
+    width: 410px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+@media (max-width: 460px) {
+    h3 {
+        width: auto;
+        font-size: 14px;
+    }
+}
+a {
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: 2px solid #db6b86;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    background-color: #efdfed;
+}
+a:hover {
+    background-color: #db6b86;
+    color: #fff;
+}
+.icon-wrap {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.icon-wrap svg {
+    width: calc(100% - 20px);
+    padding: 10px;
+}
+.icon-wrap-services {
+    margin-bottom: 50px;
+}
+@media (max-width: 740px) {
+    .icon-wrap svg {
+        width: calc(50% - 20px);
+    }
+}
+@media (max-width: 500px) {
+    .icon-wrap svg {
+        width: calc(100% - 20px);
+    }
+}
+@keyframes move {
+    0%, 100% {
+        transform: translate(1px, 1px);
+    }
+    50% {
+        transform: translate(-1px, -1px);
+    }
+}
+@keyframes move2 {
+    0%, 100% {
+        transform: translate(-1px, -1px);
+    }
+    50% {
+        transform: translate(1px, 1px);
+    }
+}
+@keyframes typingE {
+    20.1%, 80% {
+        fill: transparent;
+    }
+    20%, 80.1% {
+        fill: #fff;
+    }
+}
+@keyframes typingD {
+    30.1%, 70% {
+        fill: transparent;
+    }
+    30%, 70.1% {
+        fill: #fff;
+    }
+}
+@keyframes typingO {
+    40.1%, 60% {
+        fill: transparent;
+    }
+    40%, 60.1% {
+        fill: #fff;
+    }
+}
+.icon-support .gear-s, .icon-support .gear-m {
+    animation: rotate;
+    animation-duration: 6s;
+}
+.icon-support .gear-b {
+    animation: rotate-reverse 6s;
+}
+.icon-support .clock {
+    transform-origin: 223.6px 132.8px;
+    animation: rotate 12s linear infinite;
+}
+.icon-support .hover {
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.icon-support:hover .hover {
+    animation-play-state: running;
+}
+@keyframes shift {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0.7;
+    }
+    50% {
+        transform: translateX(10px);
+        opacity: 1;
+    }
+}
+@keyframes shift2 {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0.7;
+    }
+    50% {
+        transform: translateX(-10px);
+        opacity: 1;
+    }
+}
+@keyframes typing {
+    0%, 2% {
+        opacity: 0.6;
+    }
+    4% {
+        opacity: 1;
+    }
+}
+.star {
+    animation: twinkle 4s ease-in-out infinite;
+}
+.star-2 {
+    animation-delay: 1s;
+}
+@keyframes twinkle {
+    0%, 50%, 100% {
+        transform: scale(1);
+    }
+    25%, 75% {
+        transform: scale(1.6);
+    }
+}
+@keyframes twinkle2 {
+    0%, 50%, 100% {
+        transform: scale(1);
+    }
+    25%, 75% {
+        transform: scale(1.07);
+    }
+}
+@keyframes twinkle3 {
+    0%, 50%, 100% {
+        transform: scale(1);
+    }
+    25%, 75% {
+        transform: scale(1.14);
+    }
+}
+@keyframes bubble-t {
+    26%, 80% {
+        transform: scale(0);
+    }
+    20%, 86% {
+        transform: scale(1);
+    }
+}
+@keyframes bubble-m {
+    36%, 70% {
+        transform: scale(0);
+    }
+    30%, 76% {
+        transform: scale(1);
+    }
+}
+@keyframes bubble-b {
+    46%, 60% {
+        transform: scale(0);
+    }
+    40%, 66% {
+        transform: scale(1);
+    }
+}
+@keyframes bounce {
+    50% {
+        transform: rotate(-6deg);
+    }
+}
+@keyframes bounce2 {
+    50% {
+        transform: rotate(6deg);
+    }
+}
+@keyframes bounce3 {
+    50% {
+        transform: rotate(3deg);
+    }
+}
+@keyframes bounceBF {
+    0%, 100% {
+        transform: rotate(1.6deg);
+    }
+    50% {
+        transform: rotate(-1.6deg);
+    }
+}
+@keyframes bounceBFt2 {
+    0%, 100% {
+        transform: rotate(4.6deg);
+    }
+    50% {
+        transform: rotate(-4.6deg);
+    }
+}
+@keyframes shrink {
+    50% {
+        transform: scaleX(0.3);
+    }
+}
+@keyframes rotate {
+    to {
+        transform: rotate(1turn);
+    }
+}
+@keyframes rotate-reverse {
+    to {
+        transform: rotate(-1turn);
+    }
+}
+.content-container {
+    font: 20px Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+.head-line {
+    transition: color .2s linear;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+}
+.subheader {
+    transition: color .2s linear;
+    font-size: 36px;
+    line-height: 46px;
+}
+.hr {
+    height: 1px;
+    background-color: #dc8100;
+    width: 60%;
+    max-width: 250px;
+    margin: 35px auto;
+}
+.context {
+    transition: color .2s linear;
+    font-size: 18px;
+    line-height: 27px;
+}
+@media only screen and (max-width: 980px) {
+
+    .icon-wrap {
+        margin-top: 250px !important;
+    }
+    .head-line {
+        font-size: 70px;
+        line-height: 100px;
+    }
+    .context {
+        font-size: 19px !important;
+        padding: 0 30px;
+        font-weight: 900;
+    }
+}
