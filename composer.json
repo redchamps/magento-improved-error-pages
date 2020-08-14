@@ -3,17 +3,13 @@
     "description": "This will improve styling of Magento's error pages.",
     "type": "magento2-component",
     "license": [
-        "RedChamps EULA"
+        "OSL-3.0"
     ],
     "extra": {
         "map": [
             [
                 "src/*",
-                ""
-            ],
-            [
-                "src/*",
-                "pub"
+                "pub/errors"
             ]
         ]
     }
