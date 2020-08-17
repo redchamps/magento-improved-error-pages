@@ -2,11 +2,11 @@
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/redchamps/module-improved-error-pages.svg?style=flat-square)](https://packagist.org/packages/redchamps/module-improved-error-pages)  [![Packagist](https://img.shields.io/packagist/dt/redchamps/module-improved-error-pages.svg?style=flat-square)](https://packagist.org/packages/redchamps/module-improved-error-pages/stats) [![Packagist](https://img.shields.io/packagist/dm/redchamps/module-improved-error-pages.svg?style=flat-square)](https://packagist.org/packages/redchamps/module-improved-error-pages/stats)
 
-It will improve Magento 2's maintenance & processing error pages. We know there are many extensions for custom maintenance page but all of those add code logic in Magento and various admin settings.
+It will improve Maintenance & error processing pages of Magento 2. We know there are many extensions for custom maintenance page but all of those add additional code logic in Magento and various admin settings.
 
 Hence, motto of developing this extension is to simply update the styling of native pages instead of adding any fancy code.
 
-Please note that there is no admin setting for this extension. As soon as it's installed, it will start doing what it mean to.    
+Please note that there is no admin setting for this extension. As soon as it's installed, it will start doing what it means to.    
 
 
 ## Screenshots
