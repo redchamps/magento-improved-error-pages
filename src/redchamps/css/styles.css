@@ -22,7 +22,7 @@
 }
 .error-report input {
     display: block;
-    height: 62px;
+    height: 40px;
     color: #686868;
     padding: 0 28px;
     -webkit-transition: all 0.4s;
